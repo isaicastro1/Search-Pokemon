@@ -1,0 +1,76 @@
+html {
+    margin: 0;
+    border: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    width: 100vw;
+    height: 100px;
+}
+
+.cards {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.card {
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100px;
+    max-height: auto;
+}
+
+#abilities {
+    display: none;
+    word-wrap: break-word;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+button {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+} 
+
+#button2 {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+} 
+
+
+/* .p-tag {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    color: red;
+    border: 2px solid black;
+    height: 130px;
+} */
